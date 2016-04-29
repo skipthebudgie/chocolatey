@@ -1,3 +1,6 @@
+# Before you start, make sure you’ve relaxed Powershell’s execution policy to allow remote scripts:
+# Set-ExecutionPolicy Unrestricted
+
 # Chocolatey
 iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
  
