@@ -1,47 +1,53 @@
-# Before you start, make sure you’ve relaxed Powershell’s execution policy to allow remote scripts:
+# Before you start, make sure you’ve relaxed Powershell’s execution policy to allow remote scripts. 
+# In Powershell (admin), write:
 # Set-ExecutionPolicy Unrestricted
 
 # Chocolatey
-iex ((new-object net.webclient).DownloadString('http://bit.ly/psChocInstall'))
+iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco installall'))
  
 # install applications
 # Media:
-cinst vlc
-cinst mediamonkey
-cinst kodi
-cinst utorrent
-cinst mediainfo
-cinst filebot
+choco install vlc
+choco install mediamonkey
+choco install kodi
+choco install utorrent
+choco install mediainfo
+choco install filebot
 
 # Tekky
-cinst putty
-cinst sysinternals
-cinst fiddler
-cinst windirstat
-cinst 7zip
-cinst onedrive
-cinst googledrive
-cinst cygwin
-
+choco install putty
+choco install sysinternals
+choco install fiddler
+choco install windirstat
+choco install 7zip
+choco install onedrive
+choco install googledrive
+choco install cygwin
 
 # Core software
-cinst notepadplusplus
-cinst filezilla
-cinst googleChrome
-# cinst Autohotkey
-cinst adobe-creative-cloud
-cinst skype
-# cinst handbrake
-# cinst imgburn
-# cinst anydvd
+choco install notepadplusplus
+choco install filezilla
+choco install googleChrome
+# choco install Autohotkey
+choco install adobe-creative-cloud
+choco install skype
+# choco install handbrake
+# choco install imgburn
+# choco install anydvd
 
 # Antivirus & cleanup
-cinst Avastfreeantivirus
-cinst Malwarebytes
-cinst Ccleaner
+choco install Avastfreeantivirus
+choco install Malwarebytes
+choco install Ccleaner
 
 # Extras
-cinst jre8
-cinst Flash
-cinst Silverlight
-cinst Dotnet4.5
+choco install jre8
+choco install Flash
+choco install Silverlight
+choco install Dotnet4.5
+
+##################
+# MANUAL INSTALL #
+##################
+
+# Office 365
