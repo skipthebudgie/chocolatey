@@ -1,3 +1,5 @@
+# run this to execute the full chocolatey install #
+
 @echo off
 color 1F
 echo.
