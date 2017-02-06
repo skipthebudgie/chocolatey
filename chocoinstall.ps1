@@ -2,17 +2,21 @@
 # In Powershell (admin), write:
 # Set-ExecutionPolicy Unrestricted
 
-# Chocolatey
-iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco installall'))
+# Chocolatey - Uncomment to install Chocolatey
+# iex ((new-object net.webclient).DownloadString('http://bit.ly/psChochoco installall'))
  
 # install applications
 # Media:
 choco install vlc
 choco install mediamonkey
 choco install kodi
-choco install utorrent
+choco install qbittorrent
 choco install mediainfo
 choco install filebot
+choco install spotify
+# choco install handbrake
+# choco install imgburn
+# choco install anydvd
 
 # Tekky
 choco install putty
@@ -20,30 +24,28 @@ choco install sysinternals
 choco install fiddler
 choco install windirstat
 choco install 7zip
-choco install onedrive
-choco install googledrive
-choco install cygwin
+choco install partitionmasterfree
+choco install speccy
+choco install shexview
+choco install teracopy
 
 # Core software
 choco install notepadplusplus
 choco install filezilla
 choco install googleChrome
+choco install tor-browser
 # choco install Autohotkey
 choco install adobe-creative-cloud
-choco install skype
-# choco install handbrake
-# choco install imgburn
-# choco install anydvd
+choco install lastpass
 
 # Antivirus & cleanup
 choco install Avastfreeantivirus
-choco install Malwarebytes
-choco install Ccleaner
+# choco install Malwarebytes
+# choco install Ccleaner
+# choco install spybot
 
 # Extras
 choco install jre8
-choco install Flash
-choco install Silverlight
 choco install Dotnet4.5
 
 ##################
