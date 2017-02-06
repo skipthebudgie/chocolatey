@@ -1,4 +1,4 @@
-# run this to execute the full chocolatey install #
+:: run this to execute the full chocolatey install on a new PC
 
 @echo off
 color 1F
